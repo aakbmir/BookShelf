@@ -1,0 +1,5 @@
+<div class="container">
+    <app-card *ngFor = 'let book of books'
+    [book]=book (addToFavourites)=addToFavourites($event)>    
+    </app-card>
+  </div>

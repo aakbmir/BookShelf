@@ -1,0 +1,104 @@
+
+@import '@angular/material/prebuilt-themes/purple-green.css';
+
+html, body
+{
+    height:100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+body
+{
+    margin:0;
+    font-family: Roboto,"Helvetica Neue", sans-serif;
+}
+
+.success-snackbar {
+    color: white;
+    background: linear-gradient(45deg,green,lightgreen);
+  }
+
+.error-snackbar
+{
+    color: white;
+    background: linear-gradient(45deg,red,rgb(233, 134, 134));
+}
+
+.mat-simple-snackbar
+{
+    font-size:1em;
+    font-family: 'Acme',sans-serif;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick
+{
+    color: black;
+}
+
+.headerTooptip
+{
+    
+    font-size:15px !important;
+}
+
+@media(max-width:575px) {
+    .mat-button{
+        font-size:0.6em !important;
+    }
+    
+    .image-class{
+        height:5vh !important;
+    }
+
+    .example-card{
+        width:62vw !important;
+    }
+
+    .image{
+        width:50vw !important;
+        
+    }
+    
+
+    .mat-card{
+        height:50vh !important;
+        width:65vw !important;
+        margin-bottom: 14vh !important;
+    }
+
+    .mat-card-actions .mat-button, .mat-card-actions .mat-raised-button{
+        margin:4px 4px !important;
+    }
+
+    .my-form{
+        width: 41vw !important;
+    }
+
+    .mat-menu-item{
+        font-size:0.9em !important;
+    }
+
+    .mat-form-field.field{
+        padding-left: 8vh !important;
+    }
+
+    }
+
+    .mat-card-content>:first-child, .mat-card>:first-child{
+        margin-top: auto;
+    }
+
+
+@media(max-width:1300px) {
+    .image{
+    height: 20vh !important;
+    width: 10vw !important;
+    }
+}
+
+@media(max-width:730px) {
+    .image{
+    height: 15vh !important;
+    width: 10vw !important;
+    }
+}

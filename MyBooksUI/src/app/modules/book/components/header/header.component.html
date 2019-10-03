@@ -1,0 +1,26 @@
+<mat-toolbar>
+
+  <mat-toolbar-row>
+    <img src="assets/Image/image.jpg" class="image-class">
+
+
+    <button class="mat-button" mat-button [matMenuTriggerFor]="menu">Browse
+    </button>
+
+    <mat-menu #menu="matMenu">
+      <button class="mat-menu-item-science" [routerLink]="['Science']" mat-menu-item>Science</button>
+      <button class="mat-menu-item-biographies" [routerLink]="['Biographies']" mat-menu-item>Biographies</button>
+      <button class="mat-menu-item-textbooks" [routerLink]="['Textbooks']" mat-menu-item>Textbooks</button>
+      <button class="mat-menu-item-scifi" [routerLink]="['Sci-Fi']" mat-menu-item>Sci-Fi</button>
+      <button class="mat-menu-item-romance" [routerLink]="['Romance']" mat-menu-item>Romance</button>
+      <button class="mat-menu-item-fantasy" [routerLink]="['Fantasy']" mat-menu-item>Fantasy</button>
+    </mat-menu>
+    <button class="mat-button-books" mat-button [matMenuTriggerFor]="nj">My Books
+    </button>
+    <mat-menu #nj="matMenu">
+      <button class="mat-menu-item-favourites" [routerLink]="['/Favourites']" mat-menu-item>My Favourites</button>
+      <button class="mat-menu-item-recommend" [routerLink]="['/Recommend']" mat-menu-item>Recommended Books</button>
+    </mat-menu>
+    <button class="mat-button-logout" mat-button (click)="logout()">Logout</button>
+  </mat-toolbar-row>
+</mat-toolbar>

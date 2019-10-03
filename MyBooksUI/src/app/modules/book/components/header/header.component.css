@@ -1,0 +1,53 @@
+.mat-toolbar
+{
+    height:8vh;
+    background: linear-gradient(135deg,lightseagreen,lightsteelblue);
+    display: flex;
+    color: white;
+}
+
+.image-class
+{
+    height:8vh;
+    margin-right:auto;
+	border-radius:10%;
+}
+
+.mat-button
+{
+    font-family: 'Acme', sans-serif;
+    font-size:1em;
+}
+
+.mat-button-books
+{
+    font-family: 'Acme', sans-serif;
+    font-size:1em;
+}
+
+.mat-menu-item
+{
+    font-family: 'Acme', sans-serif;
+    font-size:1em;
+}
+
+.mat-form-field
+{
+    color: white;
+    position: absolute;
+    width: 50vw;
+    margin-left: 15vw; 
+    margin-top:1vh;  
+}
+
+.input
+{
+    color:white;
+    font-family:"Acme", sans-serif;
+}
+.label
+{
+    font-size:1em;
+    font-family:"Acme", sans-serif;
+    color:white;
+}

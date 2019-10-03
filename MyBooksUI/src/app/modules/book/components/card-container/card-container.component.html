@@ -1,0 +1,11 @@
+<mat-form-field class="field" appearance="outline">
+  <mat-label class="label">Search by Author or Title</mat-label>
+  <input (keyup)="onKey($event)" matInput class="input">
+  <mat-icon matSuffix>
+    <i class="material-icons">search</i>
+  </mat-icon>
+</mat-form-field>
+<div class="container">
+  <app-card *ngFor='let book of books' [book]=book (addToFavourites)=addToFavourites($event)>
+  </app-card>
+</div>

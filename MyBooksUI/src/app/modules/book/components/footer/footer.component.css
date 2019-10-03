@@ -1,0 +1,14 @@
+.mat-toolbar
+{
+    height:5vh;
+    font-family: 'Acme', sans-serif;
+    font-size:1em;
+    background: linear-gradient(135deg,lightseagreen,lightsteelblue);
+  
+}
+
+.footer
+{
+    margin:auto;
+    color:white;
+}

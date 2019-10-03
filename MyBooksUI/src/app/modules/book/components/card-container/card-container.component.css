@@ -1,0 +1,31 @@
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mat-form-field
+{
+    padding-left: 25vw;
+    padding-top: 4vh;
+    color: black;
+    width: 50vw;
+}
+
+.matInput
+{
+    color:black;
+}
+
+.label
+{
+    font-size:1.2em;
+    font-family:"Acme", sans-serif;
+    color:black;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline
+{
+    columns: black !important;
+}

@@ -1,0 +1,5 @@
+<div class="container">
+  <app-card *ngFor='let book of books' [book]='book' [favouritesFlag]='favouritesFlag' (deleteFromFavourites)='deleteFromFavourite($event)'
+    (updateComments)='updateComments($event)'>
+  </app-card>
+</div>

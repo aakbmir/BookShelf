@@ -1,0 +1,47 @@
+.example-card
+{
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 20vw;
+    margin:1em;
+    text-align:center;
+    background: linear-gradient(45deg,lightseagreen,lightsteelblue);
+    margin-top:10vh;
+    border-radius: 5%;    
+}
+
+
+.header
+{
+    font-family: 'Josefin Sans',sans-serif;
+    margin: auto;
+    color:black;    
+}
+
+.mat-card-subtitle
+{
+    color:black;
+}
+
+.image
+{
+    height: 30vh;
+    width:15vw;
+    margin:auto;
+}
+
+.mat-fab.mat-accent,.mat-flat-button.mat-accent,.mat-mini-fab.mat-accent,.mat-raised-button.mat-accent{
+    background-color: steelblue;
+    margin-left:1vw;
+}
+
+.mat-icons
+{
+    color:#fff
+}
+
+.material-icons
+{
+    color:#fff;
+}
